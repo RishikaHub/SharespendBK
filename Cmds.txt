@@ -1,0 +1,10 @@
+Backend: port:3001
+
+> cd ./server
+> npm i
+> nodemon app.js
+
+.env.example:
+MONGODB_URI = mongodb://localhost:27017
+PORT = 3001
+JWT_SECRET = "secret"
