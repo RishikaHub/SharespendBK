@@ -21,7 +21,7 @@ app.use(expensesRouter);
 app.use(debtsRouter);
 
 // !IMPORTANT: Create .env file with password
-const password = process.env.PASSWORD ;
+// const password = process.env.PASSWORD ;
 var mongoDB = process.env.MONGODB_URI;
 
 mongoose
